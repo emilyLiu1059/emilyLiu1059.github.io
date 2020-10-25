@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Game</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin: 25px;
+  background: url('./Images/background3.jpg') no-repeat center fixed; 
+  background-size: cover;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: url('./Images/background2.jpg');
+  color: white;
+  border-radius: 20px 20px 0px 0px;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 50px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>EcoMe</h1>
+  <p style="font-size:150%;"><b>Conserve</b> for a <b>Better Tomorrow</b></p>
+</div>
+
+<div class="navbar">
+  <a href="HomePage.html">Home</a>
+  <a href="Problem.html">Problem</a>
+  <a href="Game.html" class="active">Game</a>
+  <a href="Solution.html">Solution</a>
+  <a href="AboutUs.html" class="right">About Us</a>
+  <a href="MoreResources.html" class="right">More Resources</a>
+</div>
+
+    <h2 style="color:#f2f2f2;">TIME TO TEST WHAT YOU LEARNED WITH A GAME!</h2>
+    <p style="color:#f2f2f2;">This game allows kids to learn about the steps that they can take to save and protect 
+	the environment. The simulation provides multiple scenarios where the player has to decide which action to take
+	to be the most environmentally cautious (i.e. if they should use a reusable water bottle, or a plastic one). 
+	The scenarios range from walking around their house to turn off the tap, to choosing to use a reusable water bottle!</p>
+	
+<div id="scratch-games" class="container">
+	<iframe src="https://scratch.mit.edu/projects/440571922/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" class="center" allowfullscreen></iframe>
+</div>
+
+<div class="footer">
+  <img src="./Images/logo.jpg" style="width:185px;height:150px;">
+</div>
+
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>More Resources</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin: 25px;
+  background: url('./Images/background3.jpg') no-repeat center fixed; 
+  background-size: cover;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: url('./Images/background2.jpg');
+  color: white;
+  border-radius: 20px 20px 0px 0px;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 50px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>EcoMe</h1>
+  <p style="font-size:150%;"><b>Conserve</b> for a <b>Better Tomorrow</b></p>
+</div>
+
+<div class="navbar">
+  <a href="HomePage.html">Home</a>
+  <a href="Problem.html">Problem</a>
+  <a href="Game.html" >Game</a>
+  <a href="Solution.html">Solution</a>
+  <a href="AboutUs.html" class="right">About Us</a>
+  <a href="MoreResources.html" class="active right">More Resources</a>
+</div>
+
+    <h2 style="color:#f2f2f2;">WANT TO KNOW MORE? CHECK THESE OUT!</h2>
+	<h3 style="color:#f2f2f2;">Information Sites</h2>
+    <ul style="color:#f2f2f2;">
+	<li>Arcadia, Team. “15 Facts and Stats About Noise Pollution.” Blog, Arcadia, 17 Aug. 2017, 
+	blog.arcadia.com/15-facts-stats-noise-pollution/.</li>
+	<li>“Climate Change: Vital Signs of the Planet.” NASA, NASA, climate.nasa.gov/.</li>
+	<li>Corporativa, Iberdrola. “Noise Pollution: How to Reduce the Impact of an Invisible Threat?” 
+	Iberdrola, www.iberdrola.com/environment/what-is-noise-pollution-causes-effects-solutions.</li>
+	<li>Derouin, Sarah. “Deforestation: Facts, Causes & Effects.” LiveScience, Purch, 6 Nov. 2019, 
+	www.livescience.com/27692-deforestation.html.</li>
+	<li>eSchooltoday. Important Facts on Land Pollution, eschooltoday.com/pollution/land-pollution/land-pollution-facts.html.</li>
+	<li>“The Great Pacific Garbage Patch.” The Ocean Cleanup, 11 Feb. 2020, theoceancleanup.com/great-pacific-garbage-patch/.</li>
+	<li>Morelle, Rebecca. “Light Pollution 'Affects 80% of Global Population'.” BBC News, BBC, 10 June 2016, 
+	www.bbc.com/news/science-environment-36492596.</li>
+	<li>Network, posted by Rainforest Action, and Rainforest Action Network. “How Many Trees Are Cut down Every Year? - 
+	The Understory.” Rainforest Action Network, 15 Aug. 2018, 
+	www.ran.org/the-understory/how_many_trees_are_cut_down_every_year/.</li>
+	<li>“Our Top Tips for an Eco-Friendly and Sustainable School.” Green Modular, 
+	www.green-modular.com/blog/make-your-school-a-green-school-with-our-top-10-tips.</li>
+	<li>What Is the Difference between Global Warming and Climate Change?, 
+	www.usgs.gov/faqs/what-difference-between-global-warming-and-climate-change-1?qt-news_science_products=0.</li>
+	<li>“What Is Your Carbon Footprint?” The Nature Conservancy, 
+	www.nature.org/en-us/get-involved/how-to-help/carbon-footprint-calculator/.</li>
+	<li>“Why Are Glaciers and Sea Ice Melting?” WWF, World Wildlife Fund, 
+	www.worldwildlife.org/pages/why-are-glaciers-and-sea-ice-melting.</li>
+	</ul>
+	<br>
+	
+	<h3 style="color:#f2f2f2;">Data Tool</h3>
+	<ul style="color:#f2f2f2;">
+	<li>“Create Engaging Infographics and Reports in Minutes.” Infogram, infogram.com/.</li>
+	<li>Data Obtained From: Jachec, Seb. “University Student Carbon Footprint Knowledge.” Kaggle, 6 Mar. 2020, 
+	www.kaggle.com/iamsebj/university-student-carbon-footprint-knowledge.</li>
+	</ul>
+	<br>
+	
+	<h3 style="color:#f2f2f2;">Image Sites</h3>
+	<ul style="color:#f2f2f2;">
+	<li>“21 Horseshoe Bend Wallpapers.” Alpha Coders, 2020, 
+	wall.alphacoders.com/by_sub_category.php?id=202464&name=Horseshoe+Bend+Wallpapers.</li>
+	<li>Andrea Romano May 28, and Andrea Romano. “The Rainbow Mountain in Peru Looks Unreal - But You Can Actually Plan a Trip.” 
+	Travel + Leisure, 28 May 2018, www.travelandleisure.com/trip-ideas/rainbow-mountain-peru.</li>
+	<li>“Bora Bora Island Phone, Desktop Wallpapers, Pictures, Photos, Bckground Images.” Free HD Wallpapers, 24 Oct. 2017, 
+	www.wallpapersdsc.net/nature/bora-bora-island-75283.html.</li>
+	<li>“Environment and Pollution.” Living Room Conversations, livingroomconversations.org/topics/environment_and_pollution/.</li>
+	<li>Frerck, Robert. “The Great Pacific Garbage Patch: Taking Out the Trash.” Blue Ocean Network, 
+	blueocean.net/great-pacific-garbage-patch-taking-trash/.</li>
+	<li>Meldrum, Andrew. “Mauritius Races to Contain Oil Spill, Protect Coastline.” AP NEWS, Associated Press, 9 Aug. 2020, 
+	apnews.com/1159f7d4f31fa43145466271719075d7.</li>
+	<li>Snyder, Steve, et al. “Ultimate Guide to the Grand Prismatic Spring in Yellowstone.” Full Suitcase Family Travel Blog - Trips with Kids and Travel Tips, 7 Oct. 2020, 
+	fullsuitcase.com/grand-prismatic-spring-yellowstone/.</li>
+	<li>Teodoru, Bogdan. Beautiful Himalayas 4K Wallpaper, free4kwallpapers, 13 June 2019, 
+	free4kwallpapers.com/nature/beautiful-himalayas-wallpaper--Wl5x.</li>
+	<li>Torre, Giovanni. “Australian Bushfires: Military Deployed to Help Devastated Communities as Death Toll Rises.” The Telegraph, Telegraph Media Group, 1 Jan. 2020, 
+	www.telegraph.co.uk/news/2020/01/01/australian-bushfires-military-deployed-help-devastated-communities/.</li>
+	</ul>
+
+
+<div class="footer">
+  <img src="./Images/logo.jpg" style="width:185px;height:150px;">
+</div>
+
+</body>
+</html>

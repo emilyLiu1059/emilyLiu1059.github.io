@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>About Us</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin: 25px;
+  background: url('./Images/background3.jpg') no-repeat center fixed; 
+  background-size: cover;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: url('./Images/background2.jpg');
+  color: white;
+  border-radius: 20px 20px 0px 0px;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 50px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+.image {
+border: 3px solid white;
+border-radius: 10px;
+margin-right: 25px;
+padding: 5px;
+float: left;width:180px;height:130px
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>EcoMe</h1>
+  <p style="font-size:150%;"><b>Conserve</b> for a <b>Better Tomorrow</b></p>
+</div>
+
+<div class="navbar">
+  <a href="HomePage.html">Home</a>
+  <a href="Problem.html">Problem</a>
+  <a href="Game.html">Game</a>
+  <a href="Solution.html">Solution</a>
+  <a href="AboutUs.html" class="active right">About Us</a>
+  <a href="MoreResources.html" class="right">More Resources</a>
+</div>
+
+<h2 style="color:#f2f2f2;">WANT TO KNOW ABOUT THE CREATORS OF ECO-ME?</h2>
+<img src="./Images/Emily.JPG" class="image">
+<h4 style="color:#f2f2f2;">Emily Liu</h4>
+<p style="color:#f2f2f2;">Email: emmalee1059@gmail.com</p>
+<p style="color:#f2f2f2;">Emily is currently a sophomore at West-Windsor Plainsboro High School North in New Jersey. 
+She loves helping out when it comes to the environment. In fact, her Girl Scout Gold Award Project is based around 
+helping the environment as well. Emily enjoys coding and she is proficient in Java but still in the process of 
+learning the basics of HTML and CSS. Her other favorite hobbies are reading and playing piano.</p>
+<br>
+
+<img src="./Images/Sneha.JPG" class="image">
+<h4 style="color:#f2f2f2;">Sneha Deepak</h4>
+<p style="color:#f2f2f2;">Email: snehadeepak06@gmail.com</p>
+<p style="color:#f2f2f2;">Sneha is a sophomore at West-Windsor Plainsboro High School North in New Jersey. 
+She deeply cares about the environment and was excited to create this project with her team for the Technica Hackathon. 
+She loves to code and is familiar with programming in Python, JavaScript, HTML, and CSS.</p>
+<br>
+
+<img src="./Images/Sruthi.JPG" class="image">
+<h4 style="color:#f2f2f2;">Sruthi Potluri</h4>
+<p style="color:#f2f2f2;">Email: srupotl@gmail.com</p>
+<p style="color:#f2f2f2;">Sruthi is currently a sophomore who attends West-Windsor Plainsboro High School North. 
+She is passionate about STEM and loves to help others. She enjoys learning about the wonders of nature and spending 
+her time outdoors. She seeks to encourage others to help save our planet and is thrilled to be a 
+part of this project. In her free time, she likes to code and is currently learning Javascript and Python. 
+She also loves making music with others.</p>
+<br>
+
+<img src="./Images/Sharvari.JPG" class="image">
+<h4 style="color:#f2f2f2;">Sharvari Desphande</h4>
+<p style="color:#f2f2f2;">Email: sharvari1.deshpande@gmail.com</p>
+<p style="color:#f2f2f2;">Sharvari is a sophomore at West-Windsor Plainsboro High School North in New Jersey. 
+She has a strong passion for saving the environment and hopes that this issue will be addressed wholeheartedly by the world. 
+Sharvari enjoys math, science, history, as well as computer programming. Some other her other hobbies
+include watching Netflix and reading.</p>
+<br>
+
+<p style="color:#f2f2f2;"><b>Contact our team at: </b>techssse04@gmail.com</p>
+
+<div class="footer">
+  <img src="./Images/logo.jpg" style="width:185px;height:150px;">
+</div>
+
+</body>
+</html>
